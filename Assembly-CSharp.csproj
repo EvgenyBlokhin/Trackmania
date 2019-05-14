@@ -62,12 +62,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Racing.cs" />
+    <Compile Include="Assets\Scripts\JsonHelper.cs" />
+    <Compile Include="Assets\Scripts\LoadJSON.cs" />
+    <Compile Include="Assets\Scripts\RacingTrack.cs" />
     <Compile Include="Assets\Scripts\Restart.cs" />
+    <Compile Include="Assets\Scripts\SaveJSON.cs" />
     <Compile Include="Assets\Scripts\Start.cs" />
-    <Compile Include="Assets\Scripts\StartCar.cs" />
-    <Compile Include="Assets\Scripts\StartMotorcycle.cs" />
-    <Compile Include="Assets\Scripts\StartTruck.cs" />
+    <Compile Include="Assets\Scripts\StartRacing.cs" />
+    <Compile Include="Assets\Scripts\Transport\Car.cs" />
+    <Compile Include="Assets\Scripts\Transport\Motorcycle.cs" />
+    <Compile Include="Assets\Scripts\Transport\Transport.cs" />
+    <Compile Include="Assets\Scripts\Transport\Truck.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/zheka/Documents/Trackmania/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
